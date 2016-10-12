@@ -30,29 +30,15 @@ public class StarterApplication extends Application {
 
     // Add your initialization code here
     Parse.initialize(new Parse.Configuration.Builder(getApplicationContext())
-            .applicationId("")
-            .clientKey("")
-            .server("")
+            .applicationId("e71569167755625e8b5c74338fe130c82e3116f7")
+            .clientKey("4e08b670ef4cef3e19d0524726accd7371fc6da8")
+            .server("http://ec2-52-87-190-185.compute-1.amazonaws.com/parse/")
             .build()
     );
 
-    ParseObject object = new ParseObject("ExampleObject");
-    object.put("myNumber", "123");
-    object.put("myString", "rob");
-
-    object.saveInBackground(new SaveCallback () {
-      @Override
-      public void done(ParseException ex) {
-        if (ex == null) {
-          Log.i("Parse Result", "Successful!");
-        } else {
-          Log.i("Parse Result", "Failed" + ex.toString());
-        }
-      }
-    });
 
 
-    ParseUser.enableAutomaticUser();
+    // ParseUser.enableAutomaticUser();
 
     ParseACL defaultACL = new ParseACL();
     defaultACL.setPublicReadAccess(true);
