@@ -1,0 +1,6 @@
+{
+  "name": "Instant-messaging-android-application",
+  "tagline": "Whatsapp like messaging service",
+  "body": "### Welcome to Instant Messaging Android Application.\r\nMessaging service between android devices. Built this application with Parse server on Amazon EC-2. Application allows users to send and recieve text messages and images. Chat history is stored in the cloud and locally.\r\n\r\n### Authors and Contributors\r\nKarma Pandya (@karmagamer)'s Personal project. \r\n### Support or Contact\r\n\r\nYou can visit my <a href=\"karmapandya.com\">website</a>. Thank you for viewing my project.",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
